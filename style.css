@@ -1,0 +1,114 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/* Reset some default styles and set the font family */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Style the body with a black background */
+body {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #000; 
+  margin: 0;
+}
+
+/* Style the wrapper */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style the static text */
+.wrapper .static-txt {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+/* Style the dynamic text list */
+.wrapper .dynamic-txts {
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+
+/* Style each dynamic text item for the typing animation */
+.dynamic-txts li {
+  list-style: none;
+  color: #FC6D6D;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+
+/* Keyframes for the typing animation */
+@keyframes slide {
+  100% {
+    top: -360px;
+  }
+}
+
+/* Style the text within each dynamic text item */
+.dynamic-txts li span {
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+
+/* Create a typing animation for the text within each dynamic text item */
+.dynamic-txts li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  border-left: 2px solid #FC6D6D;
+  animation: typing 3s steps(10) infinite;
+}
+
+/* Keyframes for the typing animation of the text */
+@keyframes typing {
+  40%, 60% {
+    left: calc(100% + 30px);
+  }
+  100% {
+    left: 0;
+  }
+}
+
+/* Set text colors for specific dynamic text items */
+.dynamic-txts li:nth-child(1) span {
+  color: #32CD32;
+}
+
+.dynamic-txts li:nth-child(2) span {
+  color: #0000FF;
+}
+
+.dynamic-txts li:nth-child(3) span {
+  color: #FF0000;
+}
+
+/* Style the footer for copyright */
+.footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
