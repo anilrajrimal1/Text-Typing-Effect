@@ -28,4 +28,4 @@ For inquiries, suggestions, or any form of communication, don't hesitate to conn
 
 Witness the captivating text animation in action by exploring the live demo:
 
-[Live Demo :](https://anilrajrimal1.github.io/Text-Typing-Effect/)
+[Live Demo](https://anilrajrimal1.github.io/Text-Typing-Effect/)
