@@ -4,9 +4,17 @@ Welcome to the repository that houses the source code for my comprehensive web p
 
 ## Technologies Utilized
 
-- <i class="fab fa-html5"></i> HTML
-- <i class="fab fa-css3"></i> CSS
-- <i class="fab fa-google"></i> Google Fonts for enhanced styling
+<p align="left">
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="40" height="40"/>
+  </a>
+  <a href="https://fonts.google.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/google/google-original.svg" alt="Google Fonts" width="40" height="40"/>
+  </a>
+</p>
 
 ## Getting Started
 
